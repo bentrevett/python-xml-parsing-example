@@ -10,7 +10,7 @@ def fix_string(s):
     return TAG_RE.sub('', s)
 
 import xml.etree.ElementTree as etree
-tree = etree.parse('data/raw_data/1.2.text.xml')
+tree = etree.parse('1.2.text.xml')
 doc = tree.getroot()
 
 #the whole .xml file is a "doc"
