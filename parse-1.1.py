@@ -1,5 +1,5 @@
 import xml.etree.ElementTree as etree
-tree = etree.parse('data/raw_data/1.1.text.xml')
+tree = etree.parse('1.1.text.xml')
 doc = tree.getroot()
 
 #the whole .xml file is a "doc"
